@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+</head>
+<body>
+    <h1>Cadastro de usuário</h1>
+    <form method="post" action="ctrl-cadastrar-usuario.php">
+        <label>Nome:</label>
+        <input type="text" name="usuario_nome">
+        <label>Email:</label>
+        <input type="email" name="usuario_email">
+        <!--Temp: valor id_cidade fixo (campo escondido (hidden))-->
+        <select name="usuario_id_cidade">
+            <option  value="1">Porto Alegre</option>
+            <option value="2" >Cachoeirinha</option>
+            <option value="3">Viamão</option>
+            <!--Etc..
+            A Fazer: Estes dados precisam vir do banco (tabela Cidades)
+            -->
+        </select>
+        
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
