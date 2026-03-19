@@ -1,43 +1,56 @@
-# CRUD PHP MVC
+# Cronograma pra implantação do MVP do Projeto Integrador
 
-# Roteiro da aula 1
+## SEMANA 1
 
-### Instalar SQLite
+ - 11/03 - Definição de escopo do projeto e MVP
 
-1. baixar sqlite 
-    - Precompiled Binaries for Windows
-    - Command-line tools for Windows x64
-    - [https://sqlite.org/2026/sqlite-tools-win-x64-3520000.zip](https://sqlite.org/2026/sqlite-tools-win-x64-3520000.zip)
-2. Descompactar arquivo .zip
-3. Copiar arquivo `sqlite3.exe` para o diretório do seu projeto
+ - 12/03 - CRUD I
 
-### Escrever scripts de criação do **seu** banco de dados
+    - Model: Criação do banco - INSERT e SELECT simples
+    - View: Listagem do Result Set, iteração sobre result set (foreach)
+    - Controller: PDO (php) 
 
-Exemplo: [Um script sqlite3 que cria um banco](criar-banco.sql)
+ - 13/03 - Implementação do PI (MVP)
+	- Dúvidas e solução de problemas 
 
-Para executar o script, use a linha de comando
+## SEMANA 2
 
-1. Abra o terminal (cmd, bash...)
-2. Digite:
-    No bash
-    ```sh
-    $./sqlite3 criar-banco.sql
-    ```
-    No CMD
-    ```batch
-    >sqlite3 criar-banco.sql
-    ```
+ - 16/03 - CRUD II
+    - Model: prepared statement (INSERT)
+    - View: Formulário de cadastro
+    - Controller: $POST (dados do form)
 
-### Escrever scripts para popular as tabelas do banco
+ - 17/03 - Implementação do PI (MVP)
+	- Dúvidas e solução de problemas 
 
-Vamos inserir alguns registros para podermos começar o trabalho
-fazendo as consultas.
+ - 18/03 -	CRUD III
+    - Model: DELETE
+    - View: Listagem com opção de exclusão
+    - Controller: $GET (id registro a excluir)
 
+ - 19/03 - Implementação do PI (MVP)
+	- Dúvidas e solução de problemas 
 
-Exemplo de script: [popular-banco.sql](popular-banco.sql)
+ - 20/03 - CRUD IV
+    - Model: UPDATE
+    - View: Formulário de atualização de dados
+    - Controller: 
 
-### Fazer consultas usando PHP (PDO)
+## SEMANA 3
 
-Referência: [https://www.sqlitetutorial.net/sqlite-php/query/](https://www.sqlitetutorial.net/sqlite-php/query/)
+ - 23/03	
+	- Dúvidas e solução de problemas 
+	- Implementação do PI (MVP)
+- 24/03
 
-Exemplo trabalhado em aula: [Exemplo de Consulta usando um único arquivo](exemplo-consulta.php)
+- 25/03
+
+- 26/03 PI Apresentação dos MVPs - Parte I
+
+## SEMANA 4
+
+- 30/03 PI Apresentação dos MVPs - Parte II
+
+- 31/03
+- 1/04
+- 2/04 - término da UC/Curso
